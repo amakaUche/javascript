@@ -9,7 +9,7 @@ function myNumber(num) {
         if(i%2 == 0 && i%3 == 0) {
             arr.push("yu-gi");
         }
-        if(i%2 == 0 && i%5 ==0) {
+        if(i%2 == 0 && i%5 == 0) {
             arr.push("yu-oh");
         }
         if(i%3 == 0 && i%5 == 0) {
@@ -24,9 +24,12 @@ function myNumber(num) {
     if(i%5 ==0) {
         arr.push("oh");
         }
-    else {
-        arr.push(i);
     }
-        }
-    } 
+    else {
+        arr.push(i)
+    }   
+    }   
+    return arr;
+
+}    
 
